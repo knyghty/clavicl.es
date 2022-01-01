@@ -1,0 +1,67 @@
+name: CI
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  dependencies:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          cache: pipenv
+          python-version: "3.10"
+      - name: Install Pipenv
+        run: pip install pipenv
+      - name: Install dependencies
+        run: pipenv install
+
+  black:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: psf/black@stable
+
+  isort:
+    # Dependencies must to be installed to correctly sort third-party libraries.
+    needs: [dependencies]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          cache: pipenv
+          python-version: "3.10"
+      - name: Install Pipenv
+        run: pip install pipenv
+      - name: Run isort
+        run: pipenv run isort --check-only --diff .
+
+  deploy:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+    needs: [black, isort]
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+      - uses: actions/setup-python@v2
+        with:
+          cache: pipenv
+          python-version: "3.10"
+      - name: Install Pipenv
+        run: pip install pipenv
+      - name: Install clean-css
+        run: npm install -g clean-css-cli
+      - name: Build site
+        run: pipenv run pelican content -s publishconf.py
+      - name: Clean up
+        run: rm -r output/theme/.webassets-cache
+      - uses: JamesIves/github-pages-deploy-action@4.1.7
+        with:
+          branch: gh-pages
+          folder: output

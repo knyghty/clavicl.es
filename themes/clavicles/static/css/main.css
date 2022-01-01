@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --link-color: aqua;
+    --link-color-active: red;
+    --link-color-highlight: cornflowerblue;
+    --link-color-visited: fuchsia;
+    --neon: 0 0 7px lime,
+        0 0 10px lime,
+        0 0 21px lime,
+        0 0 42px lime,
+        0 0 82px lime,
+        0 0 92px lime;
+}
+
+/* Generic elements. */
+
+a {
+    color: var(--link-color);
+    text-underline-offset: .2em;
+}
+
+a:visited {
+    color: var(--link-color-visited);
+}
+
+a:hover {
+    color: var(--link-color-highlight);
+}
+
+a:active {
+    color: var(--link-color-active);
+}
+
+h1 {
+    color: fuchsia;
+    font-size: 1.5em;
+    /* Comic Sans bold is hideous. */
+    font-weight: normal;
+    margin: 0 0 1em 0;
+}
+
+h2 {
+    color: lime;
+    font-size: 1.25em;
+    font-weight: normal;
+    margin: 1.5em 0 1em 0;
+}
+
+h3 {
+    color: yellow;
+    font-size: 1.125em;
+    font-weight: normal;
+}
+
+p {
+    margin: 1.2em 0;
+}
+
+b, strong {
+    color: lime;
+    font-weight: normal;
+}
+
+em, i {
+    color: yellow;
+}
+
+hr {
+    border: none;
+    border-top: medium double orange;
+    color: orange;
+    margin: 40px 0 -35px 0;
+    padding: 0;
+    text-align: center;
+}
+
+hr:after {
+    background: black;
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.8em;
+    font-size: 1.5em;
+    padding: 0 .5em;
+}
+
+/* Global stuff. */
+
+html {
+    background: url("/theme/images/stars.png") black;
+    color: aliceblue;
+    font-family: "Comic Sans Pro", "Comic Sans MS", "Papyrus", sans-serif;
+    font-size: 1.25em;
+    line-height: 1.6;
+    height: 100%;
+    z-index: 0;
+}
+
+body {
+    display: grid;
+    grid:
+        "sidebar main ." auto
+        / 1fr 40em 1fr;
+    margin: 0;
+    min-height: 100%;
+}
+
+/* Sidebar. */
+
+#sidebar {
+    grid-area: sidebar;
+}
+
+#sidebar ul {
+    background: none black;
+    border-bottom: 10px solid orange;
+    list-style: none;
+    margin: 0;
+    padding: 1em;
+    position: sticky;
+    top: 0;
+}
+
+#sidebar li {
+    margin: 1em 0em;
+}
+
+#sidebar a {
+    text-decoration: none;
+}
+
+#sidebar a:visited {
+    color: var(--link-color);
+}
+
+#sidebar a:hover {
+    color: var(--link-color-highlight);
+    text-decoration: underline;
+    text-underline-offset: .4em;
+}
+
+#sidebar a:active {
+    color: var(--link-color-active);
+}
+
+/* Main area. */
+
+main {
+    background: none black;
+    border: 10px ridge orange;
+    grid-area: main;
+    padding: 40px;
+    z-index: 10;
+}
+
+@keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 60%, 100% {
+        text-shadow: var(--neon);
+    }
+    20%, 24%, 55% {       
+      text-shadow: none;
+    }
+}
+
+.neon {
+    color: white;
+    animation: flicker 1.5s infinite alternate;
+}
+
+@media (prefers-reduced-motion) {
+    .neon {
+      animation: none;
+      text-shadow: var(--neon);
+    }
+}
+
+.main-title {
+    text-align: center;
+}
+
+
+/* Articles. */
+
+.article-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.article-list time {
+    display: block;
+    font-size: .75em;
+    margin-bottom: 1em;
+}
+
+.content-header time {
+    display: block;
+    font-size: .75em;
+    margin-bottom: 1em;
+}
+
+.content-footer {
+    font-size: .75em;
+}
+
+.article-list article {
+    margin-bottom: 6em;
+}
