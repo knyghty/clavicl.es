@@ -1,5 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Clav's Place - misc</title><link href="https://clavicl.es/" rel="alternate"></link><link href="https://clavicl.es/feeds/misc.atom.xml" rel="self"></link><id>https://clavicl.es/</id><updated>2022-01-01T00:00:00+01:00</updated><entry><title>New year, new site</title><link href="https://clavicl.es/posts/2022/Jan/01/new-year-new-site/" rel="alternate"></link><published>2022-01-01T00:00:00+01:00</published><updated>2022-01-01T00:00:00+01:00</updated><author><name>Clavicles</name></author><id>tag:clavicl.es,2022-01-01:/posts/2022/Jan/01/new-year-new-site/</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Clav's Place - misc</title><link href="https://clavicl.es/" rel="alternate"></link><link href="https://clavicl.es/feeds/misc.atom.xml" rel="self"></link><id>https://clavicl.es/</id><updated>2022-01-07T00:00:00+01:00</updated><entry><title>Fun with the GitHub Code Search Beta</title><link href="https://clavicl.es/posts/2022/Jan/07/fun-with-the-github-code-search-beta/" rel="alternate"></link><published>2022-01-07T00:00:00+01:00</published><updated>2022-01-07T00:00:00+01:00</updated><author><name>Clavicles</name></author><id>tag:clavicl.es,2022-01-07:/posts/2022/Jan/07/fun-with-the-github-code-search-beta/</id><summary type="html">
+    &lt;p&gt;
+      I like to sign up for the GitHub betas when they show up.
+      Last year, &lt;a href="https://copilot.github.com/"&gt;GitHub Copilot&lt;/a&gt;
+      entered beta, which generates code automatically using AI.
+      It does a surprisingly good job, taking into account the code
+      nearby and in other parts of the proejct. It's so good in fact,
+      that …&lt;/p&gt;</summary><content type="html">
+    &lt;p&gt;
+      I like to sign up for the GitHub betas when they show up.
+      Last year, &lt;a href="https://copilot.github.com/"&gt;GitHub Copilot&lt;/a&gt;
+      entered beta, which generates code automatically using AI.
+      It does a surprisingly good job, taking into account the code
+      nearby and in other parts of the proejct. It's so good in fact,
+      that I often use it to generate code for simple functions.
+      They often need tweaking, or at the very least some updating to use
+      newer language syntax, but it serves as a good base and usually saves
+      me some time. But that's not why I'm here.
+    &lt;/p&gt;
+
+    &lt;p&gt;Today I received an email telling me I have access to the
+      &lt;a href="https://github.blog/2021-12-08-improving-github-code-search/"&gt;
+      GitHub Code Search Beta&lt;/a&gt;. In comparison to Copilot, it hasn't made
+      as much of a splash. After all, it's just an improved version of their
+      existing code search feature. As this is on my personal site rather
+      than my &lt;a href="https://carrick.eu"&gt;professional site&lt;/a&gt; (okay,
+      admittedly there's nothing on my professional site yet), I'm
+      not giving it a serious evaluation. I'm just here to have a bit
+      of fun.
+    &lt;/p&gt;
+
+    &lt;h2&gt;Needle in a haystack&lt;/h2&gt;
+    &lt;p&gt;
+      I'm not here to find anything I've seen before. Let's get weird
+      with it and see what interesting stuff we can find. I love finding
+      that stranger parts of the internet, niche communities,
+      and generally learning about the diversity of humanity.
+      Could we do this with the existing GitHub code search? Yeah, probably,
+      but the new one is here so let's give it a whirl. Where to start?
+      &lt;em&gt;Fuck&lt;/em&gt;, naturally.
+    &lt;/p&gt;
+
+    &lt;p&gt;
+      Unfortunately, it doesn't find that much of interest. Mostly it's
+      people mad at some code, a few profanity lists, and the like.
+      &lt;em&gt;Cunt&lt;/em&gt; is similar, forming parts of words in many languages.
+      We also find explanations of the
+      &lt;a href="https://en.wikipedia.org/wiki/Scunthorpe_problem"&gt;Scunthorpe problem&lt;/a&gt;,
+      I am having the inverse problem. By trying to search for naughty things,
+      I'm finding benign and boring things, such as
+      &lt;a href="https://translate.google.com/?sl=ga&amp;amp;tl=en&amp;amp;text=cuntas&amp;amp;op=translate"&gt;foreign words&lt;/a&gt;,
+      &lt;a href="https://cs.github.com/angular/angular.js/blob/f3624374e436cec6a8e42ff9298df429c26f8c56/images/docs/guide/dom_scope.graffle?q=cunt#L2527"&gt;coincidences&lt;/a&gt;,
+      &lt;a href="https://github.com/aws/aws-cdk/blame/e3359e0b79a8b999ed32c93fdbd19625bbbefaf8/packages/%40aws-cdk/pipelines/README.md#L1010"&gt;typos&lt;/a&gt;,
+      &lt;a href="https://github.com/aloksinha2001/Picuntu"&gt;poor naming choices&lt;/a&gt;, and so on.
+    &lt;/p&gt;
+
+    &lt;h2&gt;Mining for gold&lt;/h2&gt;
+    &lt;p&gt;
+      Let's get a bit more zoomerhorny. &lt;em&gt;Tiddies&lt;/em&gt; provides some interesting results.
+      I'm not sure how GitHub decides to order results. Often, popular repositories are
+      towards the beginning. Other times, not so much. The first result is for a
+      &lt;a href="https://github.com/tintinweb/smart-contract-sanctuary/blob/79d8d8a03f6421a19e050f2acb8b28d48d8f0f69/contracts_bscscan/mainnet/ec/ec8b51ecb105f1a1439a907a48f72bbd31084f0d_Tiddies.sol"&gt;smart contract&lt;/a&gt;.
+      I shouldn't be surprised &amp;mdash; Crypto and weird go hand in hand.
+    &lt;/p&gt;
+    &lt;p&gt;
+      I then hit my first piece of gold:
+      &lt;a href="https://github.com/OXOIndustries/TiTS-Public"&gt;Trials in Tainted Space&lt;/a&gt;, or TiTS
+      for short, a sci-fi porn game featuring large anime breasts by OXO Productions, a name I
+      associate more with stock cubes and kitchen gadgetry than with hentai. Googling the name,
+      I was both surprised and entirely unsurprised that it seems like it's actually fairly
+      popular, with a &lt;a href="https://wiki.smutosaur.us/TiTS/Main_Page"&gt;fan wiki&lt;/a&gt;
+      and &lt;a href="https://www.dailydot.com/irl/trials-in-tainted-space/"&gt;articles&lt;/a&gt;
+      on sites that, well, I've at least heard of. It seems like a mostly text based
+      almost-RPG interactive fiction where much of the story is based on choices you
+      make when creating your character. Sci-fi porn isn't my typical fare, but it
+      looks interesting and weird enough that I may give it a try. 🤔
+    &lt;/p&gt;
+
+    &lt;p&gt;
+      While searching for tiddies on the internet, I found another intresting repository
+      that may make me take back my earlier accusation that tiddies is a zoomer word: an
+      &lt;a href="https://github.com/ggnkua/Atari_ST_Sources"&gt;archive of source code&lt;/a&gt;
+      written for the &lt;a href="https://en.wikipedia.org/wiki/Atari_ST"&gt;Atari ST&lt;/a&gt;,
+      a not particularly popular home computer (unless you're a synthpop musician)
+      from the 80s and 90s. Hidden in the archive is a
+      &lt;a href="https://en.wikipedia.org/wiki/Demoscene"&gt;demo&lt;/a&gt; called
+      &lt;a href="https://github.com/ggnkua/Atari_ST_Sources/tree/9b51d9b52586cee5539b2d3acbc85b621c772445/ASM/Positivity/Passion"&gt;Passion&lt;/a&gt;
+      that has in severl places, the comment
+      "&lt;a href="https://github.com/ggnkua/Atari_ST_Sources/blob/9b51d9b52586cee5539b2d3acbc85b621c772445/ASM/Positivity/Passion/SHADING/SHADE.S#L282"&gt;Fuck the stored tiddies&lt;/a&gt;".
+      Maybe this is a technical term, I don't know much Motorola 68000 assembly. Or maybe
+      searching for the etymology of "tiddy" or "tiddies" will land you here, and I can
+      date the earliest use to at least 1994.
+    &lt;/p&gt;
+
+    &lt;p&gt;
+      That's about all I had the effort to find. I'm sure there's even weirder stuff
+      our there just waiting for me to get bored enough to find it. But this has been
+      an interesting lesson. Part of the point of this site has been to reacquiant
+      myself with the early period of the internet. Back then, things were pretty weird.
+      This has been a refreshing reminder that the internet can still be a pretty weird
+      place, you just have to look for it. And what better way to look for something
+      than an old-fashioned search bar?
+    &lt;/p&gt;
+  </content><category term="misc"></category></entry><entry><title>New year, new site</title><link href="https://clavicl.es/posts/2022/Jan/01/new-year-new-site/" rel="alternate"></link><published>2022-01-01T00:00:00+01:00</published><updated>2022-01-01T00:00:00+01:00</updated><author><name>Clavicles</name></author><id>tag:clavicl.es,2022-01-01:/posts/2022/Jan/01/new-year-new-site/</id><summary type="html">
     &lt;p&gt;
       In the Netherlands, the new year is brought in with a dazzling display
       of fireworks. The closest comparison in the UK is
