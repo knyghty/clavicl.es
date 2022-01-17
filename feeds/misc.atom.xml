@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Clav's Place - misc</title><link href="https://clavicl.es/" rel="alternate"></link><link href="https://clavicl.es/feeds/misc.atom.xml" rel="self"></link><id>https://clavicl.es/</id><updated>2022-01-07T00:00:00+01:00</updated><entry><title>Fun with the GitHub Code Search Beta</title><link href="https://clavicl.es/posts/2022/Jan/07/fun-with-the-github-code-search-beta/" rel="alternate"></link><published>2022-01-07T00:00:00+01:00</published><updated>2022-01-07T00:00:00+01:00</updated><author><name>Clavicles</name></author><id>tag:clavicl.es,2022-01-07:/posts/2022/Jan/07/fun-with-the-github-code-search-beta/</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Clav's Place - misc</title><link href="https://clavicl.es/" rel="alternate"></link><link href="https://clavicl.es/feeds/misc.atom.xml" rel="self"></link><id>https://clavicl.es/</id><updated>2022-01-17T00:00:00+01:00</updated><entry><title>Mon Cube!</title><link href="https://clavicl.es/posts/2022/Jan/17/mon-cube/" rel="alternate"></link><published>2022-01-17T00:00:00+01:00</published><updated>2022-01-17T00:00:00+01:00</updated><author><name>Clavicles</name></author><id>tag:clavicl.es,2022-01-17:/posts/2022/Jan/17/mon-cube/</id><summary type="html">
+    &lt;p&gt;In the first blow to my new year's resolutions, I forgot to take my
+      Rubik's cube with me to France when visiting some of my girlfriend's
+      family for a late Christmas celebration. I had it ready to go and I
+      just forgot to put it in my bag.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Technology came …&lt;/p&gt;</summary><content type="html">
+    &lt;p&gt;In the first blow to my new year's resolutions, I forgot to take my
+      Rubik's cube with me to France when visiting some of my girlfriend's
+      family for a late Christmas celebration. I had it ready to go and I
+      just forgot to put it in my bag.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Technology came to my rescue, as naturally, there's an app for that.
+      Several actually, though the first few I tried were terrible.
+      Knowing I'd only have to use it twice, I settled on the first
+      functional app I found,
+      &lt;a href="https://play.google.com/store/apps/details?id=com.JavedRehman.GameDev.RubiksCube3D"&gt;Rubik's Cube 3D&lt;/a&gt;.
+      It's not very good. It doesn't support multitouch, so getting the
+      cube into a good rotation is very annoying. Sometimes the face
+      I want to turn is not the one that does. But for two solves, it
+      worked well enough that I could solve it in around 7 minutes,
+      which is really slow but not as slow as I expected.
+    &lt;/p&gt;
+    &lt;p&gt;
+      This is the first of many short posts about nothing. Expect more.
+      Let's call it a status update on my resolutions. So far, so good.
+    &lt;/p&gt;
+  </content><category term="misc"></category></entry><entry><title>Fun with the GitHub Code Search Beta</title><link href="https://clavicl.es/posts/2022/Jan/07/fun-with-the-github-code-search-beta/" rel="alternate"></link><published>2022-01-07T00:00:00+01:00</published><updated>2022-01-07T00:00:00+01:00</updated><author><name>Clavicles</name></author><id>tag:clavicl.es,2022-01-07:/posts/2022/Jan/07/fun-with-the-github-code-search-beta/</id><summary type="html">
     &lt;p&gt;
       I like to sign up for the GitHub betas when they show up.
       Last year, &lt;a href="https://copilot.github.com/"&gt;GitHub Copilot&lt;/a&gt;
