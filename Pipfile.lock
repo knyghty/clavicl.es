@@ -178,11 +178,11 @@
                 "markdown"
             ],
             "hashes": [
-                "sha256:5baba5db1ef378ab308a459dc9028bd9fa099b1bd109000a18d23ee8469bcce9",
-                "sha256:96b05906c2f7ae1f927f5ddd29603e1dfeee3ce5b5d30fe43ccaa04534c08217"
+                "sha256:1cf11912811e053da9915265dbe72da570c63e25ae00ea01a616429458b33354",
+                "sha256:36b0ee11104102e988f051d148ec118efb0b254e3b5a5ff244258eabd5e4ac10"
             ],
             "index": "pypi",
-            "version": "==4.7.1"
+            "version": "==4.7.2"
         },
         "pelican-sitemap": {
             "hashes": [
@@ -236,7 +236,7 @@
                 "sha256:1a6266a5738115017bb64a66c59c717e7aa047b3ae49a011ede4abdeffc6536e",
                 "sha256:d5f49ad91fb343efcae45a2b2df04a9755e863e50413623ab8c9e74f05aee52b"
             ],
-            "markers": "python_full_version >= '3.6.2' and python_full_version < '4.0.0'",
+            "markers": "python_version < '4.0' and python_full_version >= '3.6.2'",
             "version": "==11.2.0"
         },
         "six": {
