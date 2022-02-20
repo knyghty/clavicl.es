@@ -5,3 +5,5 @@ jobs:
   dependabot-auto-merge:
     uses:
       knyghty/actions/.github/workflows/dependabot-auto-merge.yml@main
+    with:
+      review: false
