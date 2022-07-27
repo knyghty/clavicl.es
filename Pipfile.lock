@@ -491,11 +491,11 @@
         },
         "virtualenv": {
             "hashes": [
-                "sha256:2202dbc33c4f9aaa13289d244d64f2ade8b0169e88d0213b505099b384c5ae04",
-                "sha256:6cfedd21e7584124a1d1e8f3b6e74c0bf8aeea44d9884b6d2d7241de5361a73c"
+                "sha256:6cc42cad4d1a15c7ea5ed68e602eb49cc243b52d2eead36e577555cb56bf8705",
+                "sha256:bde925b831f36053a0fa7a468ca337dee26851c9f0bfc3d72a79d534703102d2"
             ],
             "index": "pypi",
-            "version": "==20.16.0"
+            "version": "==20.16.1"
         }
     }
 }
